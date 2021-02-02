@@ -1,0 +1,128 @@
+/* body *{
+    outline:1px solid black;
+} */
+
+/* WEBPAGE SIZE */
+#container{
+    max-width: 900px;
+    min-height:1090px;
+    margin:0px auto;
+    background-color:rgb(134, 86, 130);
+}
+#header, #contact{
+    height:90px;
+    background-color:gray;
+}
+#header h1,#header h2{
+display:inline-block;
+}
+#header h1{
+    width:460px;
+    padding:0px 0px 0px 25px;
+}
+
+/* BEGINNING OF GIRL, ABOUTME */
+#topcontent img{
+    width:380px;
+    height:250px;
+    border:5px solid gray;
+}
+.about,.girl{
+    display:inline-block;
+}
+.girl{
+    margin:20px 0px 0px 20px;
+}
+.about{
+    width:450px;
+    height:260px;
+    background-color: honeydew;
+    vertical-align: top;
+    margin:20px 0px 0px 10px;
+}
+.about p, .about a{
+    padding:0px 0px 5px 10px;
+    color:black;
+}
+#topcontent h2, #middlecontent h2{
+margin:0px;
+padding:10px;
+background-color: gray;
+color:white;
+font-size:22px;
+}
+
+/* BEGINNING OF LA MODE,FAMILYCONTACTS,FIVEELEVEN */
+.lamode, .family, .five{
+    height:350px;
+    width:250px;
+    background-color:honeydew;
+    display:inline-block;
+    margin:20px 0px 0px 30px;
+    vertical-align: top;
+}
+#middlecontent img{
+    width:250px;
+    height:140px;
+}
+.lamode p, .family p, .five p{
+padding:10px;
+margin:0px;
+}
+/* BEGINNGING OF TECHNOLOGIES */
+.technologies{
+    height:240px;
+    width:250px;
+    background-color:honeydew;
+    display: inline-block;
+    margin:0px 0px 0px 30px;
+    vertical-align: top;
+}
+.technologies li{
+    display:inline-block;
+}
+.technologies img{
+    width:40px;
+    height:40px;
+    padding:8px 0px 0px 0px;
+    margin:0px 9px 0px 10px;
+}
+.technologies a{
+    background-color:green;
+    color:white;
+    border-radius: 5px;
+    border: 2px solid black;
+    display:block;
+    text-align: center;
+    margin:50px 50px 0px 50px;
+    text-decoration: none;
+    padding:3px;
+}
+
+#bottomcontent h3{
+margin:0px;
+padding:10px;
+background-color:gray;
+color:white;
+font-size:18px;
+}
+
+/* VERY BOTTOM OF PAGE */
+#contact p{
+    text-align: center;
+    font-size:17px;
+}
+#contact ul li{
+    display:inline-block;
+}
+#contact ul{
+    padding:0px 0px 0px 275px;
+}
+#contact a{
+    color:black;
+    vertical-align: top;
+}
+#contact img{
+    width:20px;
+    height:20px;
+}
